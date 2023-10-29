@@ -20,14 +20,14 @@ function Login() {
           <input
             type="text"
             placeholder="Username"
-            className="p-2 border border-gray-300 rounded-full focus:outline-none"
+            className="px-5 py-2 border border-gray-300 rounded-full focus:outline-none"
           />
         </div>
         <div className="flex flex-col mb-4">
           <input
             type={showPassword ? 'text' : 'password'}
             placeholder="Password"
-            className="p-2 border border-gray-300 rounded-full focus:outline-none"
+            className="px-5 py-2 border border-gray-300 rounded-full focus:outline-none"
           />
         </div>
         <button
@@ -39,7 +39,7 @@ function Login() {
         <p className={`text-white text-center ${incorrectLogin ? 'block' : 'hidden'}`}>Incorrect username or password</p>
         <p className="text-white text-right">Forgot Password</p>
         <button
-          className="rounded-full w-full py-2 mt-8 text-white  border border-white hover:bg-white hover:text-blue-500 hover:border-blue-500 transition duration-300 ease-in-out font-semibold"
+          className="rounded-full w-full py-2 mt-8 text-white border-2 border-white transition duration-300 ease-in-out font-semibold transparent-button"
           onClick = {handleLogin}
         >
           Login
@@ -49,7 +49,7 @@ function Login() {
           <p className="text-white">New to Sheshya?</p>
         </div>
         <button
-         className="rounded-full w-full py-2 mt-2 text-white border border-white hover:bg-white hover:text-blue-500 hover:border-blue-500 transition duration-300 ease-in-out font-semibold">
+         className="rounded-full w-full py-2 mt-2 text-white border-2 border-white transition duration-300 ease-in-out font-semibold transparent-button">
         
           Tap to Register
         </button>

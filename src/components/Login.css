@@ -1,3 +1,11 @@
 #login-bg {
     background-color: #2C87FF;
 }
+
+.transparent-button:hover {
+    color: #2C87FF;
+    background-color: white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-color: white;
+}
