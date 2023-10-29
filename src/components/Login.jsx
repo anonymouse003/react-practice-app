@@ -4,7 +4,10 @@ import "./Login.css"
 function Login() {
   const[showPassword ,setShowPassword]= useState(false);
   const[incorrectLogin ,setIncorrectLogin]= useState(false);
-
+  const handleShowPassword = (e) => {
+    e.preventDefault();
+    setShowPassword(!showPassword)
+  }
   const handleLogin=() =>{
     setIncorrectLogin(true);
   }
@@ -29,7 +32,7 @@ function Login() {
         </div>
         <button
           className="text-white text-sm text-right self-end hover:text-gray-800"
-          onClick={() => setShowPassword(!showPassword)}
+          onClick = {handleShowPassword}
         >
           {showPassword ? 'Hide' : 'Show'} Password
         </button>
@@ -37,7 +40,7 @@ function Login() {
         <p className="text-white text-right">Forgot Password</p>
         <button
           className="rounded-full w-full py-2 mt-8 text-white  border border-white hover:bg-white hover:text-blue-500 hover:border-blue-500 transition duration-300 ease-in-out font-semibold"
-          onClick={handleLogin}
+          onClick = {handleLogin}
         >
           Login
         </button>
