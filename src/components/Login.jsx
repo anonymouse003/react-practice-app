@@ -15,7 +15,7 @@ function Login() {
     <div className='h-screen' id="login-bg">
         <div className="flex justify-center items-center h-full">
       <form className="max-w-[400px] w-full mx-auto p-8">
-        <div className="flex justify-center text-5xl text-white m-7 font-semibold">sheshya</div>
+        <div className="flex justify-center text-5xl text-white m-7 font-semibold">Sheshya</div>
         <div className="flex flex-col mb-4">
           <input
             type="text"
