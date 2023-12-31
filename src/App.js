@@ -1,4 +1,5 @@
 
+import { Learning } from './components/Learning';
 import Login from './components/Login'
 import { ManageAssets } from './components/ManageAssets';
 import { SignUp } from './components/SignUp';
@@ -10,7 +11,8 @@ function App() {
       {/* <Login /> */}
       {/* <SignUp/> */}
       {/* <ManageAssets/> */}
-      <TeacherHome/>
+      {/* <TeacherHome/> */}
+      <Learning/>
     </div>
   );
 }
