@@ -1,0 +1,65 @@
+.leftcol{
+    background-color: #2C87FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 0px 20px 20px 0px;
+}
+.leftcol img{
+    width: 160px;
+    height: 218px;
+}
+.rightcol{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    color: #2C87FF;
+    font-weight: 600;
+}
+.regForm{
+    width: 80%;
+}
+.regForm input{
+    border-radius: 15px;
+    border: 1px solid #2C87FF;
+}
+.regForm button{
+    width:60%;
+    border-radius: 15px;
+    background: #2C87FF;
+    padding: 9px 99px;
+    color:white;
+}
+.btndiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btndiv p{
+    color: #7A7A7A;
+    width: 65%;
+text-align: center;
+font-family: Rubik;
+font-size: 9.513px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:60%;
+    color:#2C87FF;
+}
+.login button{
+    width: 60%;
+    border-radius: 15px;
+border: 2px solid #2C87FF;
+}
+@media only screen and (max-width:768px){
+    .leftcol{
+        display: none;
+    }
+}
